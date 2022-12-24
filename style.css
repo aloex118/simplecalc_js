@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('ProximaNova-Light.eot');
+    src: url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Light.woff') format('woff'),
+    url('ProximaNova-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    font-family: 'Proxima Nova Light';
+    font-size: 33px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+    width: 512px;
+    height: 650px;
+    left: 464px;
+    top: 168px;
+    background-color: #F6F6F6;
+    color: #F6F6F6;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.item {
+    background-color: #FAFAFA;
+    color: black;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.lw-arrow {
+    font-family: 'Inter', sans-serif;
+}
+
+.item-field {
+    background-color: #F6F6F6;
+    color: black;
+    display: flex;
+    border-radius: 30px;
+}
+
+.form {
+    max-width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 114px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    text-align: right;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-top-left-radius: 30px;
+    font-size: 35px;
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Proxima Nova Light';
+}
+
+.input-field {
+    grid-column: 1/-1;
+    padding: 0;
+    color: #F6F6F6;
+    height: 40px;
+}
+
+.zero-btn {
+    grid-column: 1/3;
+}
+
+
